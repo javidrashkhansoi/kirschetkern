@@ -1095,10 +1095,12 @@ body {
     flex-grow: 1;
   }
 }
-.items-fast__item {
-  display: grid;
-  grid-template-columns: 40px 1fr;
-  column-gap: 25px;
+@media (max-width: 768px) {
+  .items-fast__item {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    column-gap: 25px;
+  }
 }
 @media (max-width: 768px) {
   .items-fast__item:not(:last-child) {
