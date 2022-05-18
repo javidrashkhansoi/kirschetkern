@@ -255,6 +255,9 @@ body {
 .header__logo {
   flex-shrink: 0;
 }
+.header__button {
+  padding: 0 53px;
+}
 @media (max-width: 768px) {
   .header__button {
     display: none;
@@ -805,5 +808,156 @@ body {
 @media (max-width: 1638px) {
   .card-remote__text {
     line-height: calc(18px + 8 * ((100vw - 375px) / 1263));
+  }
+}
+
+.about {
+  padding-bottom: 160px;
+}
+@media (min-width: 993px) {
+  .about__container {
+    display: flex;
+    align-items: center;
+    column-gap: 303px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1638px) {
+  .about__container {
+    column-gap: calc(0px + 303 * ((100vw - 375px) / 1263));
+  }
+}
+@media (min-width: 993px) {
+  .about__content {
+    flex-grow: 1;
+  }
+}
+@media (max-width: 992px) {
+  .about__content {
+    margin-bottom: 40px;
+  }
+}
+.about__title {
+  margin-bottom: 30px;
+}
+.about__text {
+  margin-bottom: 60px;
+}
+.about__text p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #6E6E6E;
+}
+.about__text p:not(:last-child) {
+  margin-bottom: 35px;
+}
+@media (max-width: 992px) {
+  .about__button {
+    display: none;
+  }
+}
+.about__image-ibg {
+  overflow: visible;
+}
+@media (min-width: 993px) {
+  .about__image-ibg {
+    flex-shrink: 0;
+    flex-basis: 40.2985074627%;
+    align-self: flex-start;
+    padding-bottom: 41.6666666667%;
+  }
+}
+@media (max-width: 992px) {
+  .about__image-ibg {
+    width: 87.2463768116%;
+    margin-left: auto;
+    padding-bottom: 104.3189368771%;
+  }
+}
+.about__image-ibg .lazy-image__link {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  display: inline-block;
+  padding-top: 40px;
+  padding-bottom: 28px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 40px;
+  color: #ffffff;
+  background: #f06e00 url("data:image/svg+xml,%3Csvg width='133' height='102' viewBox='0 0 133 102' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle opacity='0.68' cx='121.5' cy='121.5' r='101.5' stroke='%23FF8217' stroke-width='40'/%3E%3C/svg%3E%0A") right bottom no-repeat;
+  left: -169px;
+  max-width: 338px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 24px;
+}
+@media (min-width: 993px) {
+  .about__image-ibg .lazy-image__link {
+    bottom: 10.1492537313%;
+  }
+}
+@media (max-width: 1638px) {
+  .about__image-ibg .lazy-image__link {
+    left: calc(-42px + -127 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .about__image-ibg .lazy-image__link {
+    max-width: calc(240px + 98 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .about__image-ibg .lazy-image__link {
+    padding-right: calc(20px + 20 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .about__image-ibg .lazy-image__link {
+    padding-left: calc(20px + 20 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .about__image-ibg .lazy-image__link {
+    font-size: calc(18px + 6 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 992px) {
+  .about__image-ibg .lazy-image__link {
+    bottom: -80px;
+  }
+}
+@media (any-hover: hover) {
+  .about__image-ibg .lazy-image__link {
+    transition: background-color 0.5s;
+  }
+}
+@media (any-hover: hover) {
+  .about__image-ibg .lazy-image__link:hover {
+    background-color: #7c400e;
+  }
+  .about__image-ibg .lazy-image__link:hover::after {
+    animation-play-state: running;
+  }
+}
+.about__image-ibg .lazy-image__link::after {
+  content: "";
+  display: block;
+  height: 24px;
+  background: url("data:image/svg+xml,%3Csvg width='41' height='24' viewBox='0 0 41 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40.0607 13.0607C40.6464 12.4749 40.6464 11.5251 40.0607 10.9393L30.5147 1.3934C29.9289 0.807611 28.9792 0.807611 28.3934 1.3934C27.8076 1.97919 27.8076 2.92893 28.3934 3.51472L36.8787 12L28.3934 20.4853C27.8076 21.0711 27.8076 22.0208 28.3934 22.6066C28.9792 23.1924 29.9289 23.1924 30.5147 22.6066L40.0607 13.0607ZM0 13.5H39V10.5H0V13.5Z' fill='white'/%3E%3C/svg%3E%0A") no-repeat;
+  margin-top: 29px;
+}
+@media (max-width: 1638px) {
+  .about__image-ibg .lazy-image__link::after {
+    margin-top: calc(18px + 11 * ((100vw - 375px) / 1263));
+  }
+}
+@media (any-hover: hover) {
+  .about__image-ibg .lazy-image__link::after {
+    animation: arrow-padding 1s linear infinite alternate paused;
+  }
+}
+@keyframes arrow-padding {
+  100% {
+    background-position: 25px;
   }
 }
