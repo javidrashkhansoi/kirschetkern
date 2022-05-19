@@ -2472,3 +2472,252 @@ button.swiper-pagination-bullet {
     line-height: calc(28px + 4 * ((100vw - 375px) / 1263));
   }
 }
+
+.talk {
+  padding-bottom: 160px;
+}
+@media (max-width: 1638px) {
+  .talk {
+    padding-bottom: calc(40px + 120 * ((100vw - 375px) / 1263));
+  }
+}
+@media (min-width: 1201px) {
+  .talk__container {
+    display: flex;
+    align-items: center;
+    column-gap: 102px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1638px) {
+  .talk__container {
+    column-gap: calc(0px + 102 * ((100vw - 375px) / 1263));
+  }
+}
+.talk__content {
+  padding: 140px 100px;
+  padding-top: 140px;
+  padding-right: 100px;
+  padding-bottom: 140px;
+  padding-left: 100px;
+}
+@media (min-width: 1201px) {
+  .talk__content {
+    flex-shrink: 0;
+    flex-basis: 40.1119402985%;
+    align-self: flex-start;
+    background: url("data:image/svg+xml,%3Csvg width='161' height='144' viewBox='0 0 161 144' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle opacity='0.68' cx='171' cy='-27' r='145.5' stroke='%23FF8217' stroke-width='51'/%3E%3C/svg%3E%0A") right top no-repeat, url("data:image/svg+xml,%3Csvg width='204' height='207' viewBox='0 0 204 207' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle opacity='0.68' cx='33' cy='171' r='145.5' stroke='%23FF8217' stroke-width='51'/%3E%3C/svg%3E%0A") left bottom no-repeat;
+    background-color: #f06e00;
+  }
+}
+@media (max-width: 1638px) {
+  .talk__content {
+    padding-top: calc(60px + 80 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .talk__content {
+    padding-right: calc(28px + 72 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .talk__content {
+    padding-bottom: calc(60px + 80 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .talk__content {
+    padding-left: calc(28px + 72 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1200px) {
+  .talk__content {
+    margin-bottom: 40px;
+    background: url("data:image/svg+xml,%3Csvg width='161' height='144' viewBox='0 0 161 144' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle opacity='0.68' cx='171' cy='-27' r='145.5' stroke='%23FF8217' stroke-width='51'/%3E%3C/svg%3E%0A") right top no-repeat, url("data:image/svg+xml,%3Csvg width='204' height='320' viewBox='0 0 204 320' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle opacity='0.68' cx='33' cy='171' r='145.5' stroke='%23FF8217' stroke-width='51'/%3E%3C/svg%3E%0A") left bottom no-repeat;
+    background-color: #f06e00;
+  }
+}
+.talk__title {
+  margin-bottom: 20px;
+}
+.talk__text {
+  margin-bottom: 73px;
+}
+.talk__text p {
+  line-height: 32px;
+  color: #fff;
+  font-size: 20px;
+}
+@media (max-width: 1638px) {
+  .talk__text p {
+    font-size: calc(14px + 6 * ((100vw - 375px) / 1263));
+  }
+}
+.talk__text p:not(:last-child) {
+  margin-bottom: 30px;
+}
+@media (min-width: 1201px) {
+  .form-talk {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 993px) {
+  .form-talk__title {
+    margin-bottom: 4px;
+  }
+}
+.form-talk__label {
+  line-height: 32px;
+  color: #6E6E6E;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+@media (max-width: 1638px) {
+  .form-talk__label {
+    font-size: calc(14px + 6 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__label {
+    margin-bottom: calc(14px + 26 * ((100vw - 375px) / 1263));
+  }
+}
+.form-talk__inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 12px;
+  column-gap: 12px;
+  margin-bottom: 40px;
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs {
+    row-gap: calc(6px + 6 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs {
+    column-gap: calc(6px + 6 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs {
+    margin-bottom: calc(26px + 14 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 768px) {
+  .form-talk__inputs {
+    grid-template-columns: 1fr;
+  }
+}
+.form-talk__inputs input {
+  width: 100%;
+  font-family: "Inter";
+  line-height: 160%;
+  background: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  transition: border-color 0.5s;
+  min-height: 60px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 16px;
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs input {
+    min-height: calc(50px + 10 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs input {
+    padding-right: calc(22px + 3 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs input {
+    padding-left: calc(22px + 3 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs input {
+    font-size: calc(14px + 2 * ((100vw - 375px) / 1263));
+  }
+}
+.form-talk__inputs input:focus {
+  border: 1px solid #427ae2;
+}
+.form-talk__inputs input:focus::placeholder {
+  font-size: 0;
+}
+.form-talk__inputs input::placeholder {
+  color: #767d87;
+}
+@media (min-width: 769px) {
+  .form-talk__inputs input:nth-child(3) {
+    grid-column: span 2;
+  }
+}
+.form-talk__inputs input.error {
+  border: 1px solid #f3182b;
+}
+.form-talk__inputs textarea {
+  width: 100%;
+  font-family: "Inter";
+  line-height: 160%;
+  background: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  transition: border-color 0.5s;
+  min-height: 176px;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  font-size: 16px;
+}
+@media (min-width: 769px) {
+  .form-talk__inputs textarea {
+    grid-column: span 2;
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs textarea {
+    min-height: calc(160px + 16 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs textarea {
+    padding-top: calc(14px + 6 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs textarea {
+    padding-right: calc(22px + 78 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs textarea {
+    padding-bottom: calc(14px + 6 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs textarea {
+    padding-left: calc(22px + 3 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .form-talk__inputs textarea {
+    font-size: calc(14px + 2 * ((100vw - 375px) / 1263));
+  }
+}
+.form-talk__inputs textarea:focus {
+  border: 1px solid #427ae2;
+}
+.form-talk__inputs textarea:focus::placeholder {
+  font-size: 0;
+}
+.form-talk__inputs textarea::placeholder {
+  color: #767d87;
+}
+.form-talk__button {
+  width: 100%;
+}
