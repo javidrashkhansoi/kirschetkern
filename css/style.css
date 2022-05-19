@@ -1832,7 +1832,7 @@ button.swiper-pagination-bullet {
 }
 
 .spoller-faq__text {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #6E6E6E;
   margin-top: 28px;
   line-height: 32px;
@@ -3114,7 +3114,7 @@ button.swiper-pagination-bullet {
   }
 
   .spoller-faq__text {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .form-talk__inputs {
