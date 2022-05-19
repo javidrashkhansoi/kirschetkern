@@ -3114,7 +3114,7 @@ button.swiper-pagination-bullet {
   }
 
   .spoller-faq__text {
-    font-size: 0.875rem;
+    font-size: 0.875rem !important;
   }
 
   .form-talk__inputs {
