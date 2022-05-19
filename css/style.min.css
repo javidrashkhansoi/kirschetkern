@@ -2875,6 +2875,9 @@ button.swiper-pagination-bullet {
 .form-talk__inputs textarea::placeholder {
   color: #767d87;
 }
+.form-talk__inputs textarea.error {
+  border: 1px solid #f3182b;
+}
 .form-talk__button {
   width: 100%;
 }
