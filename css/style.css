@@ -1832,9 +1832,9 @@ button.swiper-pagination-bullet {
 }
 
 .spoller-faq__text {
+  font-size: 20px;
   color: #6E6E6E;
   margin-top: 28px;
-  font-size: 20px;
   line-height: 32px;
 }
 
@@ -2811,10 +2811,6 @@ button.swiper-pagination-bullet {
   }
 
   .spoller-faq__text {
-    font-size: calc(14px + 6 * ((100vw - 375px) / 1263));
-  }
-
-  .spoller-faq__text {
     line-height: calc(28px + 4 * ((100vw - 375px) / 1263));
   }
 
@@ -3115,6 +3111,10 @@ button.swiper-pagination-bullet {
 
   .brand-support__item_quest {
     border-bottom: 1px solid #c4c4c4;
+  }
+
+  .spoller-faq__text {
+    font-size: 14px;
   }
 
   .form-talk__inputs {
