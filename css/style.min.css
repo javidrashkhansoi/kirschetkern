@@ -2727,3 +2727,98 @@ button.swiper-pagination-bullet {
 .form-talk__button {
   width: 100%;
 }
+
+.add {
+  padding-bottom: 160px;
+}
+@media (max-width: 1638px) {
+  .add {
+    padding-bottom: calc(80px + 80 * ((100vw - 375px) / 1263));
+  }
+}
+.add__content {
+  position: relative;
+  display: block;
+  padding-top: 84px;
+  padding-right: 80px;
+  padding-bottom: 73px;
+  padding-left: 80px;
+}
+@media (max-width: 1638px) {
+  .add__content {
+    padding-top: calc(60px + 24 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .add__content {
+    padding-right: calc(30px + 50 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .add__content {
+    padding-bottom: calc(239px + -166 * ((100vw - 375px) / 1263));
+  }
+}
+@media (max-width: 1638px) {
+  .add__content {
+    padding-left: calc(30px + 50 * ((100vw - 375px) / 1263));
+  }
+}
+@media (any-hover: hover) {
+  .add__content:hover {
+    background-color: #7c400e;
+  }
+  .add__content:hover .add__title::after {
+    animation-play-state: running;
+  }
+}
+.add__content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #232434 57.09%, rgba(35, 36, 52, 0) 100%);
+}
+@media (max-width: 992px) {
+  .add__content::before {
+    background: linear-gradient(170.99deg, #232434 47.55%, rgba(35, 36, 52, 0) 106.72%);
+  }
+}
+.add__image-ibg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.add__title {
+  position: relative;
+  z-index: 2;
+}
+.add__title::after {
+  content: "";
+  display: block;
+  height: 24px;
+  margin-top: 19px;
+  background: url("data:image/svg+xml,%3Csvg width='41' height='24' viewBox='0 0 41 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40.0607 13.0607C40.6464 12.4749 40.6464 11.5251 40.0607 10.9393L30.5147 1.3934C29.9289 0.807611 28.9792 0.807611 28.3934 1.3934C27.8076 1.97919 27.8076 2.92893 28.3934 3.51472L36.8787 12L28.3934 20.4853C27.8076 21.0711 27.8076 22.0208 28.3934 22.6066C28.9792 23.1924 29.9289 23.1924 30.5147 22.6066L40.0607 13.0607ZM0 13.5H39V10.5H0V13.5Z' fill='%23F06E00'/%3E%3C/svg%3E%0A") no-repeat;
+  margin-top: 19px;
+}
+@media (max-width: 1638px) {
+  .add__title::after {
+    margin-top: calc(26px + -7 * ((100vw - 375px) / 1263));
+  }
+}
+@media (any-hover: hover) {
+  .add__title::after {
+    animation: arrow-padding 1s linear infinite alternate paused;
+  }
+}
+@media (max-width: 992px) {
+  .add__title span {
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+}
