@@ -768,14 +768,7 @@ button.swiper-pagination-bullet {
   height: 100px;
 }
 
-.logo-footer__image-ibg picture:nth-child(1) img,
-.logo-footer__image-ibg picture:nth-child(1) source {
-  -o-object-fit: contain;
-  object-fit: contain;
-}
-
-.logo-footer__image-ibg picture:nth-child(2) img,
-.logo-footer__image-ibg picture:nth-child(2) source {
+.logo-footer__image-ibg img {
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -2006,8 +1999,7 @@ button.swiper-pagination-bullet {
     max-width: 450px;
   }
 
-  .logo-footer__image-ibg picture:nth-child(2) img,
-  .logo-footer__image-ibg picture:nth-child(2) source {
+  .logo-footer__image-ibg img:nth-child(2) {
     display: none;
   }
 
@@ -2594,8 +2586,7 @@ button.swiper-pagination-bullet {
     height: 40px;
   }
 
-  .logo-footer__image-ibg picture:nth-child(1) img,
-  .logo-footer__image-ibg picture:nth-child(1) source {
+  .logo-footer__image-ibg img:nth-child(1) {
     display: none;
   }
 
